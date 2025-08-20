@@ -1,0 +1,9 @@
+openai
+python-dotenv
+langgraph
+duckduckgo-search
+langchain
+ddgs
+langchain_openai
+fastapi
+uvicorn
