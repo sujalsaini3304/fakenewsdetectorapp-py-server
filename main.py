@@ -44,7 +44,8 @@ agent = create_react_agent(
     ),
     tools=[ddg_search],
     prompt="""
-    You are an AI Fake News Detector.
+    You are an strict AI Fake News Detector.
+    Point to be strictly noted that you must have to use the ddg_search tool available in your tool componenet to give varified and correct response whithout that i don't need your response remember this point carefully. 
     Analyze any text, headline, or claim and respond ONLY in JSON format with these fields:
     {
     "claim": "...",
