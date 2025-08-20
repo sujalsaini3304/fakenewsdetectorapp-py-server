@@ -38,7 +38,7 @@ def ddg_search(query: str, max_results: int = 5):
 # Creating AI Agent
 agent = create_react_agent(
     model=ChatOpenAI(
-        model="qwen/qwen3-235b-a22b:free",
+        model="moonshotai/kimi-k2:free",
         openai_api_key=os.getenv("OPENROUTER_API_KEY"),
         openai_api_base="https://openrouter.ai/api/v1"
     ),
